@@ -10,6 +10,7 @@ import { HandComponent } from './components/hand/hand.component';
 import { CardComponent } from './components/card/card.component';
 import { StoryListComponent } from './components/story-list/story-list.component';
 import { StoryComponent } from './components/story/story.component';
+import { IntroJumbotronComponent } from './components/intro-jumbotron/intro-jumbotron.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { StoryComponent } from './components/story/story.component';
     HandComponent,
     CardComponent,
     StoryListComponent,
-    StoryComponent
+    StoryComponent,
+    IntroJumbotronComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { STORIES } from '../stories-mock';
 
 @Component({
   selector: 'app-story',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./story.component.css']
 })
 export class StoryComponent implements OnInit {
+  story = STORIES[0];
 
   constructor() { }
 
