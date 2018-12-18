@@ -11,6 +11,9 @@ import { CardComponent } from './components/card/card.component';
 import { StoryListComponent } from './components/story-list/story-list.component';
 import { StoryComponent } from './components/story/story.component';
 import { IntroJumbotronComponent } from './components/intro-jumbotron/intro-jumbotron.component';
+import { BoardComponent } from './components/board/board.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { IntroJumbotronComponent } from './components/intro-jumbotron/intro-jumb
     CardComponent,
     StoryListComponent,
     StoryComponent,
-    IntroJumbotronComponent
+    IntroJumbotronComponent,
+    BoardComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
